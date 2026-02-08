@@ -1,0 +1,144 @@
+index.html
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>B2 Mastery – Table of Contents</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #1f3a5f;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      font-size: 26px;
+      border-bottom: 2px solid #1f3a5f;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #1f3a5f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 17px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2a7fa1;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media print {
+      body {
+        background-color: #fff;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>B2 MASTERY</h1>
+    <p>Complete CEFR B2 English Skills eBook</p>
+    <p><strong>Self-Study • Exam Preparation • Classroom Use</strong></p>
+  </header>
+
+  <section>
+    <h2>Core Chapters</h2>
+    <ul>
+      <li><a href="chapter-01.html">Chapter 1: Foundations of B2 English</a></li>
+      <li><a href="chapter-02.html">Chapter 2: Vocabulary for Academic & Professional Contexts</a></li>
+      <li><a href="chapter-03.html">Chapter 3: Reading Mastery</a></li>
+      <li><a href="chapter-04.html">Chapter 4: Listening Mastery</a></li>
+      <li><a href="chapter-05.html">Chapter 5: Speaking Mastery</a></li>
+      <li><a href="chapter-06.html">Chapter 6: Writing Mastery</a></li>
+      <li><a href="chapter-07.html">Chapter 7: Grammar at B2 Level</a></li>
+      <li><a href="chapter-08.html">Chapter 8: Integrated Skills</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>EF SET–Style Mock Tests</h2>
+    <ul>
+      <li><a href="mock-test-1.html">Mock Test 1 – B2</a></li>
+      <li><a href="mock-test-2.html">Mock Test 2 – Strong B2</a></li>
+      <li><a href="mock-test-3.html">Mock Test 3 – High B2</a></li>
+      <li><a href="mock-test-4.html">Mock Test 4 – B2+</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Additional Resources</h2>
+    <ul>
+      <li><a href="teacher-guide.html">Teacher’s Guide</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>B2 Mastery © 2026</p>
+    <p>Aligned with CEFR B2 | Designed for international use</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
